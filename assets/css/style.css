@@ -67,6 +67,7 @@ h1 {
   font-size: 5vh;
 }
 
+/* wow  the bork bro*/
 .bork {
   width: 200px;
   animation: blink-animation 1s steps(5, start) infinite;
