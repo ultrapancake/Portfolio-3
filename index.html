@@ -1,41 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!--Meta-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Glen Larsen | Fullstack Developer</title>
-    <link rel="icon" type="image/png" href="assets/images/fav.png">
+    <link rel="icon" type="image/png" href="assets/images/fav.png" />
 
     <!--CSS-->
-    <link href="https://fonts.googleapis.com/css?family=Leckerli+One|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Leckerli+One|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!--JavaScript-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Header-->
+    <div id="top" class="jumbotron jumbotron-fluid">
+      <div class="container-fluid cta">
+        <div class="row justify-content-center">
+          <img class="island" src="assets/images/island.png" />
+        </div>
+        <div class="row justify-content-center">
+          <h1 class="display-4">Glen Larsen</h1>
+        </div>
+        <div class="row justify-content-center">
+          <p class="lead">Fullstack Developer</p>
+        </div>
+        <div class="row justify-content-center">
+          <a href="#navbar">
+            <img
+              class="downArrow"
+              alt="down arrow"
+              src="assets/images/arrow.svg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
 
+    <!--Nav Bar-->
+    <nav id="navbar" class="nav-justified navbar navbar-light bg-light shadow">
+      <a class="navbar-brand" href="#top">Glen Larsen</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#menu"
+        aria-controls="menu"
+        aria-expanded="false"
+        aria-label="Navigation Menu"
+      >
+        <img class="menuIcon" src="assets/images/menu_open-24px.svg" />
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#top">Top</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#">Resume</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--About Me-->
+    <div id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-2 m-0 p-0">
+          <img
+            class="bork"
+            alt="bork bork goes the pug"
+            src="assets/images/bork.png"
+          />
+        </div>
+        <div class="col-3 m-0 p-0">
+          <img class="pug" alt="borking pug" src="assets/images/pug.png" />
+        </div>
+        <div class="col-7 p-2">
+          <h2 class="about pb-2">About Me</h2>
+          <p class="pb-2">
+            My name is Glen Larsen, I am currently the meat department manager
+            at Smith's Food and Drug Store in the Avenues, Salt Lake City Utah.
+            I have been a butcher for 10 years now, 2 of which i have been
+            managing my own shop. I absolutely love my job; however, I have
+            reached the peak of my long term goals. I am looking forward to
+            starting a new career where I am able to set, and achieve, both
+            short and long term goals.
+          </p>
+          <p>
+            In my person life I have two beautiful young boys ages 6 and 7. My
+            wife and I recently purchased a new home and are slowly improving it
+            every year, this year was a new roof.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio" class="container-fluid mt-5">
+      <div class="row">
+        <h2 class="portfolio mb-2">My Portfolio</h2>
+      </div>
+      <div class="row">
+        <div class="card card-purple m-2" style="width: 22rem;">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title card-title-purple">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn button-purple mt-2">View</a>
+            <a href="#" class="btn button-purple-outline mt-2">Code</a>
+          </div>
+        </div>
+
+        <div class="card card-sanguine m-2" style="width: 22rem;">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title card-title-sanguine">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn button-sanguine mt-2">View</a>
+            <a href="#" class="btn button-sanguine-outline mt-2">Code</a>
+          </div>
+        </div>
+
+        <div class="card card-ocean m-2" style="width: 22rem;">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title card-title-ocean">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn button-ocean mt-2">View</a>
+            <a href="#" class="btn button-ocean-outline mt-2">Code</a>
+          </div>
+        </div>
+
+        <div class="card card-evening m-2" style="width: 22rem;">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title card-title-evening">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn button-evening mt-2">View</a>
+            <a href="#" class="btn button-evening-outline mt-2">Code</a>
+          </div>
+        </div>
+
+        <div class="card card-leaf m-2" style="width: 22rem;">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title card-title-leaf">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn button-leaf mt-2">View</a>
+            <a href="#" class="btn button-leaf-outline mt-2">Code</a>
+          </div>
+        </div>
+
+        <div class="card card-berry m-2" style="width: 22rem;">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title card-title-berry">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn button-berry mt-2">View</a>
+            <a href="#" class="btn button-berry-outline mt-2">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--Footer-->
     <div class="navbar">
-        <p class="copywrite">&copy2019 Glen Larsen</p>
+      <p class="copywrite">&copy2019 Glen Larsen</p>
     </div>
 
     <!--Javascript-->
     <script src="assets/javascript/app.js"></script>
-</body>
-
+  </body>
 </html>
