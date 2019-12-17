@@ -1,0 +1,317 @@
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -3000px 0;
+  }
+}
+
+body {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Leckerli One", cursive;
+}
+
+.jumbotron {
+  position: relative;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0rem;
+  background-color: #63e2ff;
+  background-image: url("../images/clouds.svg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  animation: animatedBackground 100s linear infinite;
+}
+
+.island {
+  width: 600px;
+}
+
+.cta {
+  margin-top: auto;
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.downArrow {
+  width: 50px;
+  height: 50px;
+}
+
+.menuIcon {
+  width: 35px;
+}
+
+.navbar-toggler {
+  border: 0px;
+}
+
+.navbar-brand {
+  font-family: "Leckerli One", cursive;
+  font-size: 3vh;
+  color: #63e2ff !important;
+}
+
+.about {
+  font-family: "Leckerli One", cursive;
+  color: #b77c6e;
+  font-size: 5vh;
+}
+
+.bork {
+  width: 200px;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.pug {
+  width: 200px;
+}
+
+.portfolio {
+  font-family: "Leckerli One", cursive;
+  color: #497d67;
+  font-size: 5vh;
+  width: 100%;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+  font-family: "Leckerli One", cursive;
+  font-size: 3vh;
+}
+
+.card-purple {
+  border: 3px solid #852d91;
+}
+
+.card-title-purple {
+  color: #852d91;
+}
+
+.button-purple {
+  background-color: #312a6c;
+  color: #ffffff;
+  border: 2px solid #312a6c;
+  border-radius: 0px;
+}
+
+.button-purple:hover {
+  background-color: transparent;
+  color: #312a6c;
+  border: 2px solid #312a6c;
+}
+
+.button-purple-outline {
+  background-color: transparent;
+  color: #312a6c;
+  border: 2px solid #312a6c;
+  border-radius: 0px;
+}
+
+.button-purple-outline:hover {
+  background-color: #312a6c;
+  color: #ffffff;
+  border: 2px solid #312a6c;
+}
+
+.card-sanguine {
+  border: 3px solid #fbb03b;
+}
+
+.card-title-sanguine {
+  color: #fbb03b;
+}
+
+.button-sanguine {
+  background-color: #d4145a;
+  color: #ffffff;
+  border: 2px solid #d4145a;
+  border-radius: 0px;
+}
+
+.button-sanguine:hover {
+  background-color: transparent;
+  color: #d4145a;
+  border: 2px solid #d4145a;
+}
+
+.button-sanguine-outline {
+  background-color: transparent;
+  color: #d4145a;
+  border: 2px solid #d4145a;
+  border-radius: 0px;
+}
+
+.button-sanguine-outline:hover {
+  background-color: #d4145a;
+  color: #ffffff;
+  border: 2px solid #d4145a;
+}
+
+.card-ocean {
+  border: 3px solid #1bffff;
+}
+
+.card-title-ocean {
+  color: #1bffff;
+}
+
+.button-ocean {
+  background-color: #2e3192;
+  color: #ffffff;
+  border: 2px solid #2e3192;
+  border-radius: 0px;
+}
+
+.button-ocean:hover {
+  background-color: transparent;
+  color: #2e3192;
+  border: 2px solid #2e3192;
+}
+
+.button-ocean-outline {
+  background-color: transparent;
+  color: #2e3192;
+  border: 2px solid #2e3192;
+  border-radius: 0px;
+}
+
+.button-ocean-outline:hover {
+  background-color: #2e3192;
+  color: #ffffff;
+  border: 2px solid #2e3192;
+}
+
+.card-evening {
+  border: 3px solid #00a99d;
+}
+
+.card-title-evening {
+  color: #00a99d;
+}
+
+.button-evening {
+  background-color: #93278f;
+  color: #ffffff;
+  border: 2px solid #93278f;
+  border-radius: 0px;
+}
+
+.button-evening:hover {
+  background-color: transparent;
+  color: #93278f;
+  border: 2px solid #93278f;
+}
+
+.button-evening-outline {
+  background-color: transparent;
+  color: #93278f;
+  border: 2px solid #93278f;
+  border-radius: 0px;
+}
+
+.button-evening-outline:hover {
+  background-color: #93278f;
+  color: #ffffff;
+  border: 2px solid #93278f;
+}
+
+.card-leaf {
+  border: 3px solid #3aa17e;
+}
+
+.card-title-leaf {
+  color: #3aa17e;
+}
+
+.button-leaf {
+  background-color: #00537e;
+  color: #ffffff;
+  border: 2px solid #00537e;
+  border-radius: 0px;
+}
+
+.button-leaf:hover {
+  background-color: transparent;
+  color: #00537e;
+  border: 2px solid #00537e;
+}
+
+.button-leaf-outline {
+  background-color: transparent;
+  color: #00537e;
+  border: 2px solid #00537e;
+  border-radius: 0px;
+}
+
+.button-leaf-outline:hover {
+  background-color: #00537e;
+  color: #ffffff;
+  border: 2px solid #00537e;
+}
+
+.card-berry {
+  border: 3px solid #fc7d7b;
+}
+
+.card-title-berry {
+  color: #fc7d7b;
+}
+
+.button-berry {
+  background-color: #8e78ff;
+  color: #ffffff;
+  border: 2px solid #8e78ff;
+  border-radius: 0px;
+}
+
+.button-berry:hover {
+  background-color: transparent;
+  color: #8e78ff;
+  border: 2px solid #8e78ff;
+}
+
+.button-berry-outline {
+  background-color: transparent;
+  color: #8e78ff;
+  border: 2px solid #8e78ff;
+  border-radius: 0px;
+}
+
+.button-berry-outline:hover {
+  background-color: #8e78ff;
+  color: #ffffff;
+  border: 2px solid #8e78ff;
+}
+
+.copywrite {
+  width: 100%;
+  text-align: center;
+  color: #63e2ff;
+}
